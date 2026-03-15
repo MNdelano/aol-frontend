@@ -1,0 +1,4 @@
+.p-orders .p-orders__content,
+.p-orders .p-home__hero {
+  border: 1px solid color-mix(in oklab, var(--color-accent) 40%, transparent);
+}

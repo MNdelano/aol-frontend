@@ -1,0 +1,2 @@
+.l-page { min-height: 100vh; }
+.l-main { max-width: 64rem; margin: 0 auto; padding: var(--space-6); }

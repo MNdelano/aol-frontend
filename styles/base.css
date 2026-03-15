@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: var(--font-base);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+a { color: var(--color-accent); }

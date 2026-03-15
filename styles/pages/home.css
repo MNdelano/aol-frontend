@@ -1,0 +1,4 @@
+.p-home .p-home__content,
+.p-home .p-home__hero {
+  border: 1px solid color-mix(in oklab, var(--color-accent) 40%, transparent);
+}
