@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AOL - ticket-wallet</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script defer src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script type="module" src="./index.js"></script>
+</head>
+<body>
+  <div class="app-shell" data-app-shell>
+    <aside data-sidebar></aside>
+    <section class="main-area">
+      <header data-topbar></header>
+      <main class="page-content">
+        <section class="card"><h1>ticket-wallet</h1><p class="text-muted">Shared architecture demo with explicit UI states.</p></section>
+        <section class="card" id="main-content"></section>
+        <section class="card"><h3 class="mb-2">Covered states</h3><div class="state-grid"><span class="state-chip">loading</span><span class="state-chip">empty</span><span class="state-chip">success</span><span class="state-chip">error</span><span class="state-chip">locked</span><span class="state-chip">submitted</span><span class="state-chip">expired</span><span class="state-chip">unauthorized</span></div></section>
+      </main>
+    </section>
+  </div>
+</body>
+</html>
